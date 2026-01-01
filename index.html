@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Deep Thought</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="top-header">
+      <img src="assets/logo.png" class="logo" />
+      <div class="header-right">
+        <img src="assets/home.png" class="nav-icon" />
+        <img src="assets/notification.png" class="nav-icon" />
+        <img src="assets/profile.png" class="nav-icon profile" />
+        <img src="assets/three-dots.png" class="nav-icon threeDots" />
+      </div>
+    </header>
+
+    <div class="app-layout">
+      <!-- SIDEBAR -->
+      <aside class="sidebar expanded" id="sidebar">
+
+        <div class="sidebar-header">
+          <span>Journey Board</span>
+          <img
+            src="assets/close.png"
+            id="sidebarToggle"
+            class="toggle-icon"
+            alt="toggle"
+          />
+        </div>
+
+        <div class="sidebar-content" id="sidebarContent"></div>
+      </aside>
+
+      <!-- MAIN CONTENT -->
+      <main class="content">
+        <section class="hero" id="hero"></section>
+        <section class="dashboard" id="dashboard"></section>
+      </main>
+    </div>
+
+    <script type="module" src="script.js"></script>
+  </body>
+
+ 
+</html>
